@@ -7,7 +7,7 @@ function searchForBrand() {
     const brandName = searchTextField.value.trim();
 
     if (brandName) {
-        const apiUrl = `http://makeup-api.herokuapp.com/api/v1/products.json?brand=${encodeURIComponent(brandName)}`;
+        const apiUrl = `https://makeup-api.herokuapp.com/api/v1/products.json?brand=${encodeURIComponent(brandName)}`;
 
         // Show loading logo while fetching data
         resultsMsgLabel.innerHTML = '<img src="images/loading.gif" alt="Loading" class="loading-logo"> Loading...';
