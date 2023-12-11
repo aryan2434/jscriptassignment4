@@ -6,7 +6,7 @@ window.onload = function () {
     const productDetailsElement = document.getElementById("productDetails");
 
     if (productName) {
-        const productDetailsApiUrl = `http://makeup-api.herokuapp.com/api/v1/products.json?product_name=${encodeURIComponent(productName)}`;
+        const productDetailsApiUrl = `https://makeup-api.herokuapp.com/api/v1/products.json?product_name=${encodeURIComponent(productName)}`;
 
         // Display loading indicator while fetching data
         productDetailsElement.innerText = "Loading...";
