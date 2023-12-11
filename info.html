@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Product Information</title>
+    <!-- External script with defer attribute for asynchronous loading -->
+    <script src="./js/info-script.js" defer></script>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Main container for product information page -->
+    <div id="infoPage">
+        <!-- Heading for product information -->
+        <h1>Product Information</h1>
+        <!-- Container for displaying product information -->
+        <div id="productInfo">
+            <!-- Image element for product -->
+            <img id="productImage" alt="" class="poster-image">
+            <!-- Paragraph element for displaying product details -->
+            <p id="productDetails"></p>
+        </div>
+        <!-- Button to navigate back to the search page -->
+        <button class="button" onclick="goBackToSearchPage()">Go Back</button>
+        <button class="button" onclick="openAPIDocumentation()">Click here for API Documentation</button>
+
+    </div>
+</body>
+</html>

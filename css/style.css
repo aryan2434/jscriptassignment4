@@ -1,0 +1,146 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles for shopping website feel */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Container styles */
+#app {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Header styles */
+#app h1 {
+    color: #e25822;
+}
+
+/* Search input and button styles */
+#searchTextField {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #e25822;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: #e25822;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Search results styles */
+#searchResults {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Loading logo styles */
+.loading-logo {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+/* List item styles */
+.list-item {
+    flex: 0 0 calc(25% - 20px); /* Each product item will take 25% of the container width with margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e25822;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on list items */
+.list-item:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+}
+
+/* Product image styles */
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Results message styles */
+#resultsMsgLabel {
+    margin-top: 10px;
+    color: #e25822;
+}
+
+/* Updated styles for info view */
+#infoPage {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#productInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#productDetails {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Go back button styles */
+#infoPage button {
+    background-color: #e25822;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Hover effect on buttons */
+.button:hover {
+    background-color: #f36d39;
+}
+
+/* Hover effect on list items */
+.list-item:hover {
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
+    <title>Make up Product finder</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- External script with defer attribute for asynchronous loading -->
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div id="app">
+      <!-- Display student information -->
+      <p id="studentInfo"></p>
+      <!-- Heading for the product finder -->
+      <h1>Make UP Product Finder:</h1>
+      <!-- Input field for entering brand name -->
+      <label for="searchTextField">Enter Brand Name:</label>
+      <input
+        type="text"
+        id="searchTextField"
+        class="text-field"
+        placeholder="Ex: maybelline"
+      />
+      <!-- Button to trigger product search -->
+      <button class="button" onclick="searchForBrand()">Find Products</button>
+      <!-- Container for displaying search results -->
+      <div id="searchResults">
+        <div id="titlesListView">
+          <!-- List to display product titles -->
+          <ul id="listView" onclick="redirectToInfoPage(event)"></ul>
+          <!-- Message label for displaying results information -->
+          <p id="resultsMsgLabel"></p>
+        </div>
+      </div>
+      <!-- Message label for general messages -->
+      <p id="msgLabel"></p>
+      <!-- Button to open API documentation link -->
+      <button class="button" onclick="openAPIDocumentation()">Click here for API Documentation</button>
+    </div>
+  </body>
+</html>
